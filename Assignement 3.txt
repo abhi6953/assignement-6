@@ -1,0 +1,52 @@
+Assignment 3 - Statistics
+1) option a
+2) option a
+3) option d
+4) option d
+5) option c
+6) option b
+7) option b
+8) option a
+9) option c
+
+10) Normal Distribution- The normal distribution is a form presenting data by arranging the probability distribution of each value in the data.
+Most values remain around the mean value making the arrangement symmetric.
+We use various functions in numpy library to mathematically calculate the values for a normal distribution. 
+Histograms are created over which we plot the probability distribution curve.
+
+11) Handling missing data and its techniques:- An analysis is only as good as its data, and every researcher has struggled with dubious results because of missing data.
+methods to handle missing data:-
+1.) Mean or Median Imputation
+When data is missing at random, we can use list-wise or pair-wise deletion of the missing observations.
+2.) Multivariate Imputation by Chained Equations (MICE)- MICE assumes that the missing data are Missing at Random (MAR). 
+It imputes data on a variable-by-variable basis by specifying an imputation model per variable. 
+MICE uses predictive mean matching (PMM) for continuous variables, logistic regressions for binary variables, bayesian polytomous regressions for factor variables, and proportional odds model for ordered variables to impute missing data.
+3.) Random Forest
+Random forest is a non-parametric imputation method applicable to various variable types that works well with both data missing at random and not missing at random. 
+Random forest uses multiple decision trees to estimate missing values and outputs OOB (out of bag) imputation error estimates. 
+
+12) A/B Testing:- It is a way to compare the two versions of a variable to find out which performs better in a controlled environment.
+For instance, let’s say you own a company and want to increase the sales of your product. Here, either you can use random experiments, or you can apply scientific and statistical methods.
+A/B testing is one of the most prominent and widely used statistical tools.
+In the above scenario, you may divide the products into two parts – A and B. 
+Here A will remain unchanged while you make significant changes in B’s packaging. 
+Now, on the basis of the response from customer groups who used A and B respectively, you try to decide which is performing better.
+
+13)Is mean imputation of missing data acceptable practice? 
+in my opinion the answer is no, as there may not be enough observations with non-missing data to produce a reliable analysis.
+secondly, In predictive analytics, missing data can prevent the predictions for those observations which have missing data.
+thirtly, External factors may require specific observations to be part of the analysis.
+so in the end we impute values for missing data. A common technique is to use the mean or median of the non-missing observations.
+
+14) Linear Regression:- Linear regression is a basic predictive analytics technique that uses historical data to predict an output variable. 
+It is popular for predictive modelling because it is easily understood and can be explained using plain English.
+Linear regression models have many real-world applications in an array of industries such as economics (e.g. predicting growth), 
+business (e.g. predicting product sales, employee performance), social science (e.g. predicting political leanings from gender or race), healthcare (e.g. predicting blood pressure levels from weight, disease onset from biological factors), and more.
+
+15) 2 Branches of Statistics:-
+1.) Descriptive Statistics
+Descriptive statistics deals with the presentation and collection of data. This is usually the first part of a statistical analysis. 
+It is usually not as simple as it sounds, and the statistician needs to be aware of designing experiments, choosing the right focus group and avoid biases that are so easy to creep into the experiment.
+2.) Inferential Statistics
+Inferential statistics, as the name suggests, involves drawing the right conclusions from the statistical analysis that has been performed using descriptive statistics. 
+In the end, it is the inferences that make studies important and this aspect is dealt with in inferential statistics.

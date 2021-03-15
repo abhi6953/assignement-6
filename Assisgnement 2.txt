@@ -1,0 +1,45 @@
+Assignment 2 SQL
+1) option a,d
+2) option a,b
+3) option b
+4) option b
+5) option a
+6) option c
+7) option b
+8) option b
+9) option b
+10) option a
+
+11) Data Warehousing- 
+A Data Warehousing (DW) is process for collecting and managing data from varied sources to provide meaningful business insights. 
+A Data warehouse is typically used to connect and analyze business data from heterogeneous sources. 
+The data warehouse is the core of the BI system which is built for data analysis and reporting.
+
+12) Difference between OLTP AND OLAP
+OLTP- It is an online transactional system and manages database modification which focus on Insert, Update, Delete information from the database.
+where transaction is short and processing time is fast which maintains the data integrity constraint with normalized database.
+OLAP- It is an online data retrieving and data analysis system which focus on Extract data for analyzing that helps in decision making.
+where different OLTPs database becomes the source of data for OLAP having long transaction with more time consuming process.
+having complex queries which are not normalized and  data integrity is not affected.
+
+13) various characteristics of data-warehouse:-
+1.it is subject-oriented- A data warehouse is always a subject oriented as it delivers information about a theme instead of organization’s current operations. 
+It can be achieved on specific theme. That means the data warehousing process is proposed to handle with a specific theme which is more defined. 
+These themes can be sales, distributions, marketing etc.
+2. Integrated- It is somewhere same as subject orientation which is made in a reliable format. Integration means founding a shared entity to scale the all similar data from the different databases. 
+The data also required to be resided into various data warehouse in shared and generally granted manner.
+3. Time- Varient- In this data is maintained via different intervals of time such as weekly, monthly, or annually etc. It founds various time limit which are structured between the large datasets and are held in online transaction process (OLTP). 
+The time limits for data warehouse is wide-ranged than that of operational systems. The data resided in data warehouse is predictable with a specific interval of time and delivers information from the historical perspective.
+4. Non-Volatile –
+As the name defines the data resided in data warehouse is permanent. It also means that data is not erased or deleted when new data is inserted. 
+It includes the mammoth quantity of data that is inserted into modification between the selected quantity on logical business. It evaluates the analysis within the technologies of warehouse.
+
+14) Star-Schema- In computing, the star schema is the simplest style of data mart schema and is the approach most widely used to develop data warehouses and dimensional data marts. 
+The star schema consists of one or more fact tables referencing any number of dimension tables.
+
+15) SETL- (SET Language) is a very high-level programming language based on the mathematical theory of sets.
+SETL provides two basic aggregate data types: unordered sets, and sequences (the latter also called tuples). 
+The elements of sets and tuples can be of any arbitrary type, including sets and tuples themselves. 
+Maps are provided as sets of pairs (i.e., tuples of length 2) and can have arbitrary domain and range types. 
+Primitive operations in SETL include set membership, union, intersection, and power set construction, among others.
+SETL provides several iterators to produce a variety of loops over aggregate data structures.
